@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(246, 147, 136, 0.772);
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(246, 147, 136, 0.772);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(245, 102, 66);
+}
+
+.nombre-empresa {
+    padding-left: 10px;
+    padding-top: 12px;
+    color: rgb(245, 102, 66);
+    font-weight: bold;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(245, 102, 66);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.logo-logo {
+    height: 50px;
+    color: rgb(245, 102, 66);
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(245, 102, 66);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-item a:hover {
+    color: #fff;
+}
+
+/* Estilos para el banner */
+.banner {
+
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.banner-tittle {
+    font-size: 36px;
+    color: rgb(245, 102, 66);
+}
+
+.banner-p {
+    font-size: 18px;
+    color: rgb(245, 102, 66);
+}
+
+/* IMAGENES  */
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+
+}
+
+.imagen {
+    border: 2px solid rgb(245, 102, 66);
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.imagen:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .imagen {
+        max-width: 100%;
+        /* Ajusta el tamaño máximo de las imágenes para que sean responsive */
+        height: auto;
+        margin: 5px;
+        /* Espacio entre las imágenes (ajusta según sea necesario) */
+        border: 1px solid #ccc;
+        /* Estilo de borde (opcional) */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        /* Sombra suave (opcional) */
+    }
+
+    .imagenes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        /* Espacio entre las imágenes (ajusta según sea necesario) */
+    }
+    .imagen:hover {
+        transform: none;
+    }
+}
+
+
+
+
+
+/* Estilos para los articulos */
+.articles {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(247, 114, 99);
+    border: 2px solid rgb(245, 102, 66);
+}
+
+.article-info,
+.article-ayuda,
+.article-redes {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(246, 147, 136, 0.772);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(246, 147, 136, 0.877);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid rgb(245, 102, 66);
+}
+
+.copyright {
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(247, 114, 99);
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(245, 102, 66);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+.redes-sociales {
+    margin-top: 10px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.face-icono:hover {
+    transform: scale(1.4);
+}
+
+.insta-icono:hover {
+    transform: scale(1.4);
+}
+
+.twitter-icono:hover {
+    transform: scale(1.4);
+}
+
+
+/*QUIENES SOMOS*/
+
+/*GRILLAS*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+
+.sobre-nosotros {
+    background-color: rgba(246, 147, 136, 0.772);
+    border: 2px solid rgb(245, 102, 66);
+    padding: 20px;
+}
+
+.informacion-contacto {
+    text-align: center;
+    background-color: rgba(246, 147, 136, 0.772);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(245, 102, 66);
+
+}
+
+.grid-h2 {
+    color: rgb(245, 102, 66);
+    font-size: 50px;
+}
+
+.grid-h3 {
+    color: rgb(245, 102, 66);
+    font-size: 40px;
+}
+
+.address-p {
+    text-align: center;
+}
+
+.link-fo-footer a {
+    text-decoration: none;
+    color: rgb(255, 84, 42)
+}
+
+/*GRID-PERSONAL*/
+.personal-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px;
+    margin: 50px;
+}
+
+.personas {
+    background-color: rgba(246, 147, 136, 0.877);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgb(245, 102, 66);
+
+}
+
+.personas img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/*WHATSAPP ICONO BOOTSTRAP*/
+
+.icon-link img {
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(245, 102, 66);
+}
+
+.h1-ubi {
+    text-align: center;
+    color: rgb(245, 102, 66)
+}
+
+/*MAPAS*/
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    flex-wrap: wrap;
+}
+
+.card-container h2 {
+    text-align: center;
+    color: rgb(245, 102, 66);
+}
+
+.card {
+    width: 500px;
+    background-color: rgba(246, 147, 136, 0.877);
+    border-radius: 8px;
+    border: 2px solid rgb(245, 102, 66);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.map {
+    border: 2px solid rgb(245, 102, 66);
+    width: 100%;
+    height: 305px;
+}
+
+
+/*GRILLA PATREONS*/
+.grilla-patrocinadores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(3fr, 1fr);
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.patrocinador {
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 40px;
+    border: 2px solid rgb(245, 102, 66);
+}
+
+.patrocinadores-h1 {
+    text-align: center;
+    color: rgb(245, 102, 66)
+}
+
+.patrocinadores-p {
+    text-align: center;
+    color: rgb(245, 102, 66)
+}
+
+/*SOCIOS*/
+
+.socios-main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.socios {
+    border: 2px solid rgb(245, 102, 66);
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: rgba(246, 147, 136, 0.877);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+.socios-h1 {
+    font-size: 24px;
+    color: rgb(245, 102, 66)
+}
+
+.socios-p {
+    font-size: 16px;
+    color: rgb(245, 102, 66)
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 113, 87);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #ffffff;
+    color: rgb(255, 113, 87);
+    ;
+}
