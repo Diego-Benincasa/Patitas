@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PATITAS</title>
+    <title>PATITAS-Asociate</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
@@ -16,39 +16,44 @@
     <header>
         <div class="logo-header">
             <a href="../index.html" class="logo-link">
-                <img src="../img/icono.png" alt="Icono-empresa" class="logo-logo" />
-                <p class="nombre-empresa">PATITAS/ASOCIARSE</p>
+                <img src="../img/icono.png" alt="Icono-empresa" class="logo-logo scale-up-center" />
+                <p class="nombre-empresa">PATITAS</p>
+            </a>
         </div>
-        <div>
+        <div class="menu-container">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="../index.html">Inicio</a></li>
+                    <li class="menu-item"><a href="/index.html">Inicio</a></li>
                     <li class="menu-item"><a href="../pages/quienes-somos.html">Quienes somos</a></li>
                     <li class="menu-item"><a href="../pages/donde-encontrarnos.html">Donde encontrarnos</a></li>
                     <li class="menu-item"><a href="../pages/patrocinadores.html">Patrocinadores</a></li>
-                    <li class="menu-item"><a href="../pages/asociate.html">Asociarse</a></li>
+                    <li class="menu-item"><a class="active" href="../pages/asociate.html">Asociarse</a></li>
                 </ul>
             </nav>
         </div>
-        <!--ICONO WHATSAPP BOOTSTRAP-->
+        <!-- Menú hamburguesa (Bootstrap) -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Icono de WhatsApp (Bootstrap) -->
         <a class="icon-link icon-link-hover" href="https://wa.me/+598092338744">
-            <img src="../img/whatsapp.png" alt="">
-            <svg class="bi" aria-hidden="true">
-                <use xlink:href="#arrow-right"></use>
-            </svg>
+            <img src="../img/whatsapp.svg" alt="WhatsApp">
         </a>
     </header>
 
     <main class="socios-main">
         <section class="socios">
             <h1 class="socios-h1">Conviértete en uno de nuestros Socios</h1>
-            <p class="socios-p">Descubre los beneficios de ser parte de nuestra comunidad de socios. Obtén acceso a eventos exclusivos, contenido premium y más.</p>
+            <p class="socios-p">Descubre los beneficios de ser parte de nuestra comunidad de socios. Obtén acceso a
+                eventos exclusivos, contenido premium y más.</p>
             <a href="#socios" class="boton">Más información</a>
         </section>
 
         <section class="socios">
             <h1 class="socios-h1">Cómo Asociarse</h1>
-            <p class="socios-p">¿Interesado en unirte a nosotros? Descubre cómo puedes convertirte en miembro de nuestra organización. ¡Es fácil y rápido!</p>
+            <p class="socios-p">¿Interesado en unirte a nosotros? Descubre cómo puedes convertirte en miembro de nuestra
+                organización. ¡Es fácil y rápido!</p>
             <a href="#asociarse" class="boton">Solicitar Asociación</a>
         </section>
     </main>

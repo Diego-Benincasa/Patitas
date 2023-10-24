@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PATITAS</title>
+    <title>PATITAS-Patrocinadores</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
@@ -16,30 +16,35 @@
     <header>
         <div class="logo-header">
             <a href="../index.html" class="logo-link">
-                <img src="../img/icono.png" alt="Icono-empresa" class="logo-logo" />
-                <p class="nombre-empresa">PATITAS/PATROCINADORES</p>
+                <img src="../img/icono.png" alt="Icono-empresa" class="logo-logo scale-up-center" />
+                <p class="nombre-empresa">PATITAS</p>
+            </a>
         </div>
-        <div>
+        <div class="menu-container">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="../index.html">Inicio</a></li>
+                    <li class="menu-item"><a href="/index.html">Inicio</a></li>
                     <li class="menu-item"><a href="../pages/quienes-somos.html">Quienes somos</a></li>
                     <li class="menu-item"><a href="../pages/donde-encontrarnos.html">Donde encontrarnos</a></li>
-                    <li class="menu-item"><a href="../pages/patrocinadores.html">Patrocinadores</a></li>
+                    <li class="menu-item"><a class="active" href="../pages/patrocinadores.html">Patrocinadores</a></li>
                     <li class="menu-item"><a href="../pages/asociate.html">Asociarse</a></li>
+                </ul>
             </nav>
         </div>
-        <!--ICONO WHATSAPP BOOTSTRAP-->
+        <!-- Menú hamburguesa (Bootstrap) -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Icono de WhatsApp (Bootstrap) -->
         <a class="icon-link icon-link-hover" href="https://wa.me/+598092338744">
-            <img src="../img/whatsapp.png" alt="">
-            <svg class="bi" aria-hidden="true">
-                <use xlink:href="#arrow-right"></use>
-            </svg>
+            <img src="../img/whatsapp.svg" alt="WhatsApp">
         </a>
     </header>
 
     <main>
-        <div>
+        <div class="cuadro-patrons">
+        <div class="titulo-patrocinadores">
             <h1 class="patrocinadores-h1">Nuestros patrocinadores</h1>
             <p class="patrocinadores-p">Queremos agradecer a las siguientes marcas por apoyar nuestra causa, ya que somos una empresa sin animos de lucro solo nos vemos beneficiados de nuestros patrocinadores y de nuestros socios.</p>
         </div>
@@ -60,6 +65,7 @@
             <div class="patrocinador"><img src="../img/sponsor2.png" alt=""></div>
             <div class="patrocinador"><img src="../img/sponsor1.png" alt=""></div>
         </div>
+    </div>
     </main>
 
     <footer>
