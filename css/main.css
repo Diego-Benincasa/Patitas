@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: rgba(246, 147, 136, 0.772);
+    background-color: rgb(246, 147, 136);
     text-align: center;
     padding: 20px;
     display: flex;
@@ -30,7 +30,7 @@ header {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: rgb(245, 102, 66);
+    color: black;
 }
 
 .scale-up-center {
@@ -83,7 +83,7 @@ header {
 
 .nombre-empresa {
     padding-left: 10px;
-    color: rgb(245, 102, 66);
+    color: black;
     font-weight: bold;
 }
 
@@ -99,7 +99,7 @@ header {
 
 .menu-item a {
     text-decoration: none;
-    color: rgb(245, 102, 66);
+    color: black;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -141,12 +141,12 @@ header {
 
 .banner-tittle {
     font-size: 36px;
-    color: rgb(245, 102, 66);
+    color: black
 }
 
 .banner-p {
     font-size: 18px;
-    color: rgb(245, 102, 66);
+    color: black
 }
 
 /* IMAGENES  */
@@ -229,7 +229,7 @@ header {
 
 h2 {
     font-size: 24px;
-    color: rgb(245, 102, 66);
+    color: black
 }
 
 /* Estilos para el pie de página */
@@ -245,12 +245,12 @@ footer {
     font-size: 14px;
     margin: 0;
     text-decoration: none;
-    color: rgb(247, 114, 99);
+    color: black
 }
 
 .copyright a {
     text-decoration: none;
-    color: rgb(245, 102, 66);
+    color: black;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -332,12 +332,12 @@ footer {
 }
 
 .grid-h2 {
-    color: rgb(245, 102, 66);
+    color: black;
     font-size: 50px;
 }
 
 .grid-h3 {
-    color: rgb(245, 102, 66);
+    color: black;
     font-size: 40px;
 }
 
@@ -347,7 +347,7 @@ footer {
 
 .link-fo-footer a {
     text-decoration: none;
-    color: rgb(255, 84, 42);
+    color: black;
 }
 
 /*GRID-PERSONAL*/
@@ -382,7 +382,7 @@ footer {
 
 .h1-ubi {
     text-align: center;
-    color: rgb(245, 102, 66);
+    color: black;
 }
 
 /* Estilos para las tarjetas (cards) */
@@ -417,7 +417,7 @@ footer {
 .cuadro-patrons {
     text-align: center;
     padding: 20px;
-    color: rgb(245, 102, 66);
+    color: black;
 }
 
 .titulo-patrocinadores {
@@ -465,12 +465,12 @@ footer {
 
 .socios-h1 {
     font-size: 24px;
-    color: rgb(245, 102, 66);
+    color: black;
 }
 
 .socios-p {
     font-size: 16px;
-    color: rgb(245, 102, 66);
+    color: black;
 }
 
 .boton {
