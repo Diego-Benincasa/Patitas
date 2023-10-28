@@ -1,0 +1,104 @@
+/* NAVBAR */
+@media (max-width: 480px) {
+    .menu {
+      flex-direction: column;
+
+      .menu-item {
+        margin: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .menu-item {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* IMAGENES */
+  @media (max-width: 768px) {
+    .imagen {
+      max-width: 100%;
+      height: auto;
+      margin: 5px;
+      border: 1px solid rgb(245, 102, 66);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  
+    .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .imagen:hover {
+      transform: none;
+    }
+  }
+  
+  /* Estilos para los articulos */
+
+
+@media (max-width: 768px) {
+  .articles {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .articles {
+    flex-direction: column;
+  }
+}
+
+
+/*QUIENES SOMOS*/
+
+/*GRILLAS*/
+
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .informacion-contacto {
+    order: 3;
+  }
+}
+@media screen and (min-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .informacion-contacto {
+    order: 3;
+  }
+}
+
+/*MAPAS*/
+
+/*768*/
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+/*480*/
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+/*GRILLA PATREONS*/
+
+@media screen and (max-width: 768px) {
+  .grilla-patrocinadores {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}

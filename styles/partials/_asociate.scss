@@ -1,0 +1,43 @@
+.socios-main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;  
+  }
+
+  .socios {
+    border: 2px solid $borderbox-color;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: $background-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+
+    .socios-h1 {
+        font-size: 24px;
+        color: black;
+      }
+      
+      .socios-p {
+        font-size: 16px;
+        color: black;
+      }
+
+      .boton {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: $background-color;
+        border: 2px solid $borderbox-color;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: #ffffff;
+            color: rgb(255, 113, 87);
+          }
+      }
+  }
