@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -102,13 +103,15 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid rgb(245, 102, 66);
+  font-family: "Agbalumo";
   /*WHATSAPP ICONO BOOTSTRAP*/
 }
 header .logo-link {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
+  margin: 0 auto;
 }
 header .logo-link .scale-up-center {
   animation: scale-up-center 3s ease-in-out infinite both;
@@ -127,20 +130,22 @@ header .logo-link .logo-logo {
 }
 header .logo-link .nombre-empresa {
   padding-left: 10px;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
   font-weight: bold;
+  font-family: "Agbalumo";
 }
 header .menu {
   list-style: none;
   padding: 0;
   display: flex;
+  align-items: center;
 }
 header .menu .menu-item {
   margin: 0 20px;
 }
 header .menu .menu-item a {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -161,14 +166,16 @@ main {
 main .banner {
   text-align: center;
   padding: 35px 0;
+  color: rgba(0, 0, 0, 0.513);
 }
 main .banner .banner-tittle {
   font-size: 36px;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
+  font-family: "Agbalumo";
 }
 main .banner .banner-tittle .banner-p {
   font-size: 18px;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
 }
 main .imagenes {
   display: flex;
@@ -207,51 +214,14 @@ main .articles-container .articles .article-info .titulo-article,
 main .articles-container .articles .article-ayuda .titulo-article,
 main .articles-container .articles .article-redes .titulo-article {
   font-size: 24px;
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.513);
+  font-family: "Agbalumo";
 }
 main .articles-container .articles .article-info .link-fo-footer a,
 main .articles-container .articles .article-ayuda .link-fo-footer a,
 main .articles-container .articles .article-redes .link-fo-footer a {
   text-decoration: none;
-  color: rgb(255, 0, 0);
-}
-
-footer {
-  background-color: rgba(246, 147, 136, 0.772);
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  border-top: 2px solid rgb(245, 102, 66);
-}
-footer .copyright {
-  font-size: 14px;
-  margin: 0;
-  text-decoration: none;
-  color: black;
-}
-footer .copyright a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-footer .copyright a:hover {
-  color: #fff;
-}
-footer .redes-sociales {
-  margin-top: 10px;
-}
-footer .redes-sociales .social-icons {
-  list-style-type: none;
-  padding: 0;
-  transition: all 0.3s ease;
-}
-footer .redes-sociales .social-icons li {
-  display: inline;
-  margin-right: 10px;
-}
-footer .redes-sociales .social-icons li .social:hover {
-  transform: scale(1.4);
+  color: rgba(0, 0, 0, 0.513);
 }
 
 .grid-container {
@@ -266,8 +236,10 @@ footer .redes-sociales .social-icons li .social:hover {
   padding: 20px;
 }
 .grid-container .sobre-nosotros .grid-h2 {
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
   font-size: 50px;
+  font-family: "Agbalumo";
+  text-align: center;
 }
 .grid-container .informacion-contacto {
   text-align: center;
@@ -276,8 +248,9 @@ footer .redes-sociales .social-icons li .social:hover {
   border: 2px solid rgb(245, 102, 66);
 }
 .grid-container .informacion-contacto .grid-h3 {
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
   font-size: 40px;
+  font-family: "Agbalumo";
 }
 .grid-container .informacion-contacto .address-p {
   text-align: center;
@@ -295,6 +268,10 @@ footer .redes-sociales .social-icons li .social:hover {
   text-align: center;
   border: 2px solid rgb(245, 102, 66);
 }
+.grid-container .personal-container .personas-nombres {
+  color: rgba(0, 0, 0, 0.513);
+  font-family: "Agbalumo";
+}
 .grid-container .personal-container .personas img {
   max-width: 100%;
   height: auto;
@@ -303,8 +280,9 @@ footer .redes-sociales .social-icons li .social:hover {
 
 .h1-ubi {
   text-align: center;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
   margin-top: 20px;
+  font-family: "Agbalumo";
 }
 
 .card {
@@ -322,11 +300,12 @@ footer .redes-sociales .social-icons li .social:hover {
 .cuadro-patrons {
   text-align: center;
   padding: 20px;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
 }
 
 .titulo-patrocinadores {
   margin-bottom: 20px;
+  font-family: "Agbalumo";
 }
 
 .grilla-patrocinadores {
@@ -358,11 +337,12 @@ footer .redes-sociales .social-icons li .social:hover {
 }
 .socios .socios-h1 {
   font-size: 24px;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
+  font-family: "Agbalumo";
 }
 .socios .socios-p {
   font-size: 16px;
-  color: black;
+  color: rgba(0, 0, 0, 0.513);
 }
 .socios .boton {
   display: inline-block;
@@ -377,4 +357,44 @@ footer .redes-sociales .social-icons li .social:hover {
 .socios .boton:hover {
   background-color: #ffffff;
   color: rgb(255, 113, 87);
+}
+
+footer {
+  background-color: rgba(246, 147, 136, 0.877);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid rgb(245, 102, 66);
+}
+footer .copyright {
+  font-size: 20px;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(247, 114, 99);
+  font-family: "Agbalumo";
+}
+footer .copyright a {
+  text-decoration: none;
+  color: rgb(245, 102, 66);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+footer .copyright a:hover {
+  color: #fff;
+  transition: color 0.7s;
+}
+footer .redes-sociales {
+  margin-top: 10px;
+}
+footer .redes-sociales .social-icons {
+  list-style-type: none;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+footer .redes-sociales .social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+footer .social a:hover {
+  transform: scale(1.4);
 }/*# sourceMappingURL=estilo.css.map */

@@ -1,21 +1,21 @@
 .cuadro-patrons {
-    text-align: center;
-    padding: 20px;
-    color: black;
+  text-align: center;
+  padding: 20px;
+  color: $font-color;
 }
 
 .titulo-patrocinadores {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: $title-font;
 }
 
 .grilla-patrocinadores {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 
-    .patrocinador img {
-        max-width: 100%;
-        border: 2px solid $borderbox-color;
-    }
+  .patrocinador img {
+    max-width: 100%;
+    border: 2px solid $borderbox-color;
+  }
 }

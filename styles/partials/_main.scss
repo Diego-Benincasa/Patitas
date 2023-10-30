@@ -4,15 +4,16 @@ main {
   .banner {
     text-align: center;
     padding: 35px 0;
-    color: rgb(0, 0, 0);
+    color: $font-color;
 
     .banner-tittle {
       font-size: 36px;
-      color: black;
+      color: $font-color;
+      font-family: $title-font;
 
       .banner-p {
         font-size: 18px;
-        color: rgb(0, 0, 0);
+        color: $font-color;
       }
     }
   }
@@ -53,13 +54,14 @@ main {
         margin: 10px;
 
         .titulo-article {
-            font-size: 24px;
-            color: rgb(255, 0, 0);
-          }      
+          font-size: 24px;
+          color: $font-color;
+          font-family: $title-font;
+        }
         .link-fo-footer a {
-            text-decoration: none;
-            color: rgb(255, 0, 0);
-          }    
+          text-decoration: none;
+          color: $font-color;
+        }
       }
     }
   }

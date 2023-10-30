@@ -1,89 +1,90 @@
 header {
-    background-color: $background-color;
-    text-align: center;
-    padding: 20px;
+  background-color: $background-color;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid $borderbox-color;
+  font-family: $title-font;
+
+  .logo-link {
+    text-decoration: none;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid $borderbox-color;
+    color: $font-color;
+    margin: 0 auto;
 
-    .logo-link {
+    .scale-up-center {
+      -webkit-animation: scale-up-center 3s ease-in-out infinite both;
+      animation: scale-up-center 3s ease-in-out infinite both;
+    }
+
+    @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+      }
+
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+      }
+
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+    .logo-logo {
+      height: 50px;
+      align-items: center;
+    }
+
+    .nombre-empresa {
+      padding-left: 10px;
+      color: $font-color;
+      font-weight: bold;
+      font-family: $title-font;
+    }
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    .menu-item {
+      margin: 0 20px;
+
+      a {
         text-decoration: none;
-        display: flex;
-        align-items: center;
-        color: black;
+        color: $font-color;
+        font-weight: bold;
+        transition: color 0.3s;
 
-        .scale-up-center {
-            -webkit-animation: scale-up-center 3s ease-in-out infinite both;
-            animation: scale-up-center 3s ease-in-out infinite both;
+        &:hover {
+          color: #fff;
+          transition: color 0.7s;
         }
-
-        @-webkit-keyframes scale-up-center {
-            0% {
-                -webkit-transform: scale(0.5);
-                transform: scale(0.5);
-            }
-
-            100% {
-                -webkit-transform: scale(1);
-                transform: scale(1);
-            }
+        &.active {
+          color: #fff;
         }
-
-        @keyframes scale-up-center {
-            0% {
-                -webkit-transform: scale(0.5);
-                transform: scale(0.5);
-            }
-
-            100% {
-                -webkit-transform: scale(1);
-                transform: scale(1);
-            }
-        }
-
-        .logo-logo {
-            height: 50px;
-            align-items: center;
-        }
-
-        .nombre-empresa {
-            padding-left: 10px;
-            color: black;
-            font-weight: bold;
-        }
+      }
     }
+  }
 
-    .menu {
-        list-style: none;
-        padding: 0;
-        display: flex;
-
-        .menu-item {
-            margin: 0 20px;
-
-            a {
-                text-decoration: none;
-                color: black;
-                font-weight: bold;
-                transition: color 0.3s;
-
-                &:hover {
-                    color: #fff;
-                    transition: color 0.7s;
-
-                    
-                }
-                &.active {
-                    color: #fff;
-                }
-            }
-        }
-    }
-
-    /*WHATSAPP ICONO BOOTSTRAP*/
-    .icon-link img {
-        height: 50px;
-    }
-
+  /*WHATSAPP ICONO BOOTSTRAP*/
+  .icon-link img {
+    height: 50px;
+  }
 }
