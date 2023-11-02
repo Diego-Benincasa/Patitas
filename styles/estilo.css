@@ -109,7 +109,6 @@ header {
 header .logo-link {
   text-decoration: none;
   display: flex;
-  align-items: center;
   color: rgba(0, 0, 0, 0.513);
   margin: 0 auto;
 }
@@ -126,7 +125,6 @@ header .logo-link .scale-up-center {
 }
 header .logo-link .logo-logo {
   height: 50px;
-  align-items: center;
 }
 header .logo-link .nombre-empresa {
   padding-left: 10px;
@@ -134,26 +132,26 @@ header .logo-link .nombre-empresa {
   font-weight: bold;
   font-family: "Agbalumo";
 }
-header .menu {
+header .navbar-nav {
   list-style: none;
   padding: 0;
   display: flex;
   align-items: center;
 }
-header .menu .menu-item {
+header .navbar-nav .nav-item {
   margin: 0 20px;
 }
-header .menu .menu-item a {
+header .navbar-nav .nav-item a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.513);
   font-weight: bold;
   transition: color 0.3s;
 }
-header .menu .menu-item a:hover {
+header .navbar-nav .nav-item a:hover {
   color: #fff;
   transition: color 0.7s;
 }
-header .menu .menu-item a.active {
+header .navbar-nav .nav-item a.active {
   color: #fff;
 }
 header .icon-link img {
@@ -347,7 +345,7 @@ main .articles-container .articles .article-redes .link-fo-footer a {
 .socios .boton {
   display: inline-block;
   padding: 10px 20px;
-  background-color: rgba(246, 147, 136, 0.772);
+  background-color: rgba(245, 61, 28, 0.869);
   border: 2px solid rgb(245, 102, 66);
   color: #fff;
   text-decoration: none;
